@@ -1,0 +1,16 @@
+  <ul>
+    {{each training as cat i}}
+      {{if cat[role]}}
+      <li class="pdf">
+        {{cat.name | enFormat}}
+        {{if cat[role].length}}
+          {{each cat[role] as file i}}
+            <a class="downloadBtn {{file | extLang}}"
+              href="training_interceptor.php?fname={{file | rmSlash | encode}}"
+              target="_blank">{{file | langBtn}}</a>
+          {{/each}}
+        {{/if}}
+      </li>
+      {{/if}}
+    {{/each}}
+  </ul>

@@ -1,0 +1,22 @@
+{
+  "name": "hkt_help",
+  "version": "1.0.0",
+  "description": "build help pages",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "help",
+    "pages"
+  ],
+  "author": "sam fang",
+  "license": "ISC",
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "underscore": "^1.8.3"
+  }
+}

@@ -1,0 +1,124 @@
+[
+    {
+        "folder": "cls",
+        "name": "雲端學習系統 Cloud Learning System (CLS)",
+        "subs": [
+            {
+                "folder": "Teacher",
+                "name": "教師使用手冊 Teachers User Manual"
+            },
+            {
+                "folder": "Student",
+                "name": "學生使用手冊 Student User Manual"
+            },
+            {
+                "folder": "Admin",
+                "name": "管理員使用手冊"
+            },
+            {
+                "folder": "Parent",
+                "name": "家長用戶手冊 Parent User Manual"
+            }
+        ]
+    },
+    {
+        "folder": "als",
+        "name": "ALS 課堂學習系統",
+        "subs": [
+            {
+                "folder": "TeacherClass",
+                "name": "教師使用手冊"
+            },
+            {
+                "folder": "UserClass",
+                "name": "General Working Steps for Using Activity Apps"
+            }
+        ]
+    },
+    {
+        "folder": "diytools",
+        "name": "互動課件創建工具 DIY Tools",
+        "subs": [
+            {
+                "folder": "DIYTools",
+                "name": "教師使用手冊"
+            }
+        ]
+    },
+    {
+        "folder": "flipped",
+        "name": "HKTE Flipped 翻轉教室系統",
+        "subs": [
+            {
+                "folder": "FlippedTeacher",
+                "name": "管理員及教師使用手冊"
+            }
+        ]
+    },
+    {
+        "folder": "mdm",
+        "name": "HKTE MDM",
+        "subs": [
+            {
+                "folder": "MDMTeacher",
+                "name": "教師使用手冊 Teachers User Manual"
+            },
+            {
+                "folder": "MDMAndroid",
+                "name": "安裝指南 Installation Guide - Android"
+            },
+            {
+                "folder": "MDMIPad",
+                "name": "安裝指南 Installation Guide - iPad (with Apple Configurator)"
+            },
+            {
+                "folder": "InstallationGuide_iPad",
+                "name": "Installation Guide - iPad (with Apple Configurator 2)"
+            },
+            {
+                "folder": "MDMPush",
+                "name": "Apple推送通知服務部署指南 Apple Push Notification Generation Guide"
+            },
+            {
+                "folder": "BYOD_Admin_Setup_Guide",
+                "name": "BYOD Admin Setup Guide"
+            },
+            {
+                "folder": "DEP_Implement_iPad_Mac",
+                "name": "Apple Device Enrollment Program (DEP) 部署指南 DEP Implementation Guide"
+            },
+            {
+                "folder": "VPP_Implement_iPad_Mac",
+                "name": "Apple Volume Purchase Program (VPP) 部署指南 VPP Implementation Guide"
+            },
+            {
+                "folder": "MD_Tutorial",
+                "name": "媽媽‧爸爸應用程式指南 Mommy.Daddy App Tutorial"
+            }
+        ]
+    },
+    {
+        "folder": "sc",
+        "name": "HKTE 校園視頻 HKTE School Channel",
+        "subs": [
+            {
+                "folder": "SchoolChannel",
+                "name": "校園視頻系統 – 管理員使用手冊"
+            }
+        ]
+    },
+    {
+        "folder": "parentapp",
+        "name": "HKTE Parent App",
+        "subs": [
+            {
+                "folder": "AdminUM",
+                "name": "管理員使用手冊 Admin User Manual"
+            },
+            {
+                "folder": "ParentUM",
+                "name": "家長用戶手冊 Parent User Manual"
+            }
+        ]
+    }
+]

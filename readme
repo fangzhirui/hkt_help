@@ -1,0 +1,29 @@
+生成config, 在/app/config里面查看
+gulp buildConfig 
+
+生成php, 在/app/php.dist里面查看
+gulp buildphp
+
+生成html, 在/app/tpl.dist里面查看
+gulp buildhtml
+
+生成html并部署, 会放到真实的位置, 覆盖原有文件
+gulp deploy 
+
+1. delete 
+(1) config里面删除对应的最底层的项目,自己检查config格式是否正确
+(2) resources里面删除对应的文件,video添加mp4,download和training添加文件夹
+(3) gulp buildConfig
+(4) gulp deploy 
+
+2. add
+(1) resources里面添加对应项目: video添加mp4, download和training添加. 
+注意: 1. 文件名注意正确, video只能是.mp4, donwload和training只能是.pdf. 注意扩展名都是小写
+      2. mp4文件和pdf文件注意要和父文件夹名字一致. 如cat.8.zh.pdf,那么其父文件夹的名字是cat
+      
+(2)gulp buildConfig
+(3)编辑config文件, 在/app/config里面,目录同resource结构一致
+(4)gulp deploy
+
+3. update
+delete + add

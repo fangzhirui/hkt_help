@@ -1,0 +1,62 @@
+  <ul>
+    {{each video as mod index}}
+      <li class="divider">{{mod.name | enFormat}}</li>
+      {{each mod.subs as cat t}}
+        {{if cat[role]}}
+          {{if cat.open}}
+          <li class="video collapse defaultOpen opened">
+          {{else}}
+          <li class="video collapse closed">
+          {{/if}}
+            <div class="collapseBtn">
+              {{cat.name | enFormat}}
+              <a class="collapseBtnIco">
+                <span>fold button</span>
+              </a>
+            </div>
+            {{if index == 0}}
+            <div style="display: block;" class="collapseBody">
+            {{else}}
+            <div class="collapseBody">
+            {{/if}}
+              <ul>
+                {{each cat.subs as sub i}}
+                  {{if i === cat.subs.length - 1}}
+                  <li class="last">
+                  {{else}}
+                  <li>
+                  {{/if}}
+                    {{if sub[role] && sub[role].length }}
+                    <img src="resources/video{{sub.path}}/side.jpg" />
+                    <div>
+                      <h5>{{sub.name | enFormat}}</h5>
+                      <ul>
+                        {{each sub[role] as items j }}
+                          {{if items.length}}
+                            <li>
+                              <span class="marks">{{items[0].file | getP2}}</span>
+                              <a href="javascript: void(0)" onClick="check_openV('{{items[0].file | rmSlash | encode}}')">
+                                {{items[0].name | enFormat}}
+                              </a>
+
+                              {{if items.length > 1}}
+                              <span class="en"> / </span>
+                              <a href="javascript: void(0)" onClick="check_openV('{{items[1].file | rmSlash | encode}}')">
+                                {{items[1].name | enFormat}}
+                              </a>
+                              {{/if}}
+                            </li>
+                          {{/if}}
+                        {{/each}}
+                      </ul>
+                    </div>
+                    {{/if}}
+                  </li>
+                {{/each}}
+              </ul>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+    {{/each}}
+  </ul>

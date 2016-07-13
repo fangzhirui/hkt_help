@@ -1,0 +1,11 @@
+genconfig工作原理
+
+1. 检查有没有config, 有的话改名为config.old,如有重名则覆盖.
+2. 遍历resources文件夹,生成config
+3. 使得config继承config.old
+
+so, 如果要改动config文件的结构
+1. 改动config.bak
+2. 复制config.bak为config.old
+3. 删掉config
+4. gulp buildConfig

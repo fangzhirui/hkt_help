@@ -1,0 +1,279 @@
+[
+    {
+        "folder": "diytools",
+        "name": "DIY tools 互動課件創建工具",
+        "subs": [
+            {
+                "folder": "login_diytools",
+                "name": "進入 DIY tools 互動課件創建工具",
+                "subs": [
+                    {
+                        "folder": "login",
+                        "name": "登入 CLS 雲端學習系統",
+                        "subs": {
+                            "1.1a": {
+                                "zh": "備課易 DIY – 登入"
+                            },
+                            "1.1b": {
+                                "zh": "備課易 DIY – 登入(如學校系統已加入Google Apps)"
+                            },
+                            "1.2": {
+                                "zh": "備課易 DIY – 進入工具"
+                            },
+                            "1.3": {
+                                "zh": "備課易 DIY – 設定界面語言"
+                            }
+                        }
+                    },
+                    {
+                        "folder": "others",
+                        "name": "其他 DIY tools 功能",
+                        "subs": {
+                            "1.4": {
+                                "zh": "備課易 DIY – 找尋課件"
+                            },
+                            "1.5": {
+                                "zh": "備課易 DIY – 找尋課件(以日期排列)"
+                            },
+                            "1.6": {
+                                "zh": "備課易 DIY – 刪除課件"
+                            },
+                            "1.7": {
+                                "zh": "備課易 DIY – 修改課件"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "folder": "use_diytools",
+                "name": "如何使用 DIY tools 互動課件創建工具",
+                "subs": [
+                    {
+                        "folder": "gen_ebook",
+                        "name": "製作電子書",
+                        "subs": {
+                            "2.1": {
+                                "zh": "DIY 電子書 – 製作電子書"
+                            },
+                            "2.2": {
+                                "zh": "DIY 電子書 – 增加書頁"
+                            },
+                            "2.3": {
+                                "zh": "DIY 電子書 – 檢視書頁"
+                            },
+                            "2.4": {
+                                "zh": "DIY 電子書 – 刪除書頁"
+                            },
+                            "2.5": {
+                                "zh": "DIY 電子書 – 插入書頁"
+                            },
+                            "2.6": {
+                                "zh": "DIY 電子書 – 跳頁功能"
+                            },
+                            "2.7": {
+                                "zh": "DIY 電子書 – 刪除跳頁功能"
+                            },
+                            "2.8": {
+                                "zh": "DIY 電子書 – 下載電子書檔"
+                            }
+                        }
+                    },
+                    {
+                        "folder": "gen_group_card",
+                        "name": "製作分組派卡",
+                        "subs": {
+                            "2.9": {
+                                "zh": "DIY 分組派卡 – 製作活動"
+                            },
+                            "2.10": {
+                                "zh": "DIY 分組派卡 – 新增題目"
+                            },
+                            "2.11": {
+                                "zh": "DIY 分組派卡 – 刪除題目"
+                            },
+                            "2.12": {
+                                "zh": "DIY 分組派卡 – 下載活動檔件"
+                            }
+                        }
+                    },
+                    {
+                        "folder": "gen_drawing",
+                        "name": "製作手寫繪畫",
+                        "subs": {
+                            "2.13": {
+                                "zh": "DIY 手寫繪畫 – 製作活動"
+                            },
+                            "2.14": {
+                                "zh": "DIY 手寫繪畫 – 增加題目"
+                            },
+                            "2.15": {
+                                "zh": "DIY 手寫繪畫 – 排列題目次序"
+                            },
+                            "2.16": {
+                                "zh": "DIY 手寫繪畫 – 刪除題目"
+                            },
+                            "2.17": {
+                                "zh": "DIY 手寫繪畫 – 加入文字"
+                            },
+                            "2.18": {
+                                "zh": "DIY 手寫繪畫 – 加入更多文字"
+                            },
+                            "2.19": {
+                                "zh": "DIY 手寫繪畫 – 下載活動檔"
+                            }
+                        }
+                    },
+                    {
+                        "folder": "gen_video_answer",
+                        "name": "製作影視搶答",
+                        "subs": {
+                            "2.20": {
+                                "zh": "DIY 影視搶答 – 製作活動"
+                            },
+                            "2.21": {
+                                "zh": "DIY 影視搶答 – 刪除題目"
+                            },
+                            "2.22": {
+                                "zh": "DIY 影視搶答 – 下載活動檔"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "folder": "als",
+        "name": "ALS 課堂學習系統",
+        "subs": [
+            {
+                "folder": "use_als",
+                "name": "如何使用 ALS 課堂學習系統",
+                "subs": [
+                    {
+                        "folder": "als_elearning_sys",
+                        "name": "ALS 課堂學習系統",
+                        "subs": {
+                            "3.1": {
+                                "zh": "課堂易 ALS – 登入系統"
+                            },
+                            "3.2": {
+                                "zh": "課堂易 ALS – 基本操控"
+                            },
+                            "3.3": {
+                                "zh": "課堂易 ALS – 同步瀏覽書頁"
+                            },
+                            "3.4": {
+                                "zh": "課堂易 ALS – 筆記功能(書寫)"
+                            },
+                            "3.5": {
+                                "zh": "課堂易 ALS – 筆記功能(強調)"
+                            },
+                            "3.6": {
+                                "zh": "課堂易 ALS – 筆記功能(刪除)"
+                            },
+                            "3.7": {
+                                "zh": "課堂易 ALS – 退出筆記功能"
+                            },
+                            "3.8": {
+                                "zh": "課堂易 ALS – 離開系統"
+                            },
+                            "3.9": {
+                                "zh": "課堂易 ALS – 檢查學生平板狀態"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HKTE MDM",
+        "folder": "mdm",
+        "subs": [
+            {
+                "folder": "use_mdm_teacher",
+                "name": "如何使用 HKTE MDM Teacher App",
+                "subs": [
+                    {
+                        "folder": "mdm_teacher",
+                        "name": "HKTE MDM Teacher App",
+                        "subs": {
+                            "4.1": {
+                                "zh": "簡介"
+                            },
+                            "4.2": {
+                                "zh": "開始應用"
+                            },
+                            "4.3": {
+                                "zh": "設備指令"
+                            },
+                            "4.4": {
+                                "zh": "鎖定單一應用程式"
+                            },
+                            "4.5": {
+                                "zh": "雲筆記"
+                            },
+                            "4.6": {
+                                "zh": "黑屏鎖定"
+                            },
+                            "4.7": {
+                                "zh": "下課"
+                            },
+                            "4.8": {
+                                "zh": "鎖定多個應用程式"
+                            },
+                            "4.9": {
+                                "zh": "小組"
+                            },
+                            "4.10": {
+                                "zh": "發送信息"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "folder": "use_mdm_admin",
+                "name": "如何使用HKTE MDM控制台",
+                "subs": [
+                    {
+                        "folder": "mdm_teacher",
+                        "name": "HKTE MDM 控制台",
+                        "subs": {
+                            "5.1": {
+                                "zh": "簡介",
+                                "en": "Introduction"
+                            },
+                            "5.2": {
+                                "zh": "幫助",
+                                "en": "Find Help"
+                            },
+                            "5.3": {
+                                "zh": "創建與設定標籤",
+                                "en": "Create Label and Set Device and App"
+                            },
+                            "5.4": {
+                                "zh": "安裝應用程式",
+                                "en": "App Installation"
+                            },
+                            "5.5": {
+                                "zh": "安裝描述檔(Profile)",
+                                "en": "Profile Installation"
+                            },
+                            "5.6": {
+                                "zh": "BYOD設定",
+                                "en": "BYOD Setting"
+                            },
+                            "5.7": {
+                                "zh": "設定學校資料",
+                                "en": "Set School Info"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

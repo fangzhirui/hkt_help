@@ -1,0 +1,20 @@
+  <ul>
+    {{each download as cat index}}
+    {{if cat[role]}}
+    <li class="divider">{{cat.name | enFormat}}</li>
+      {{each cat.subs as sub i}}
+
+        {{if sub[role] && sub[role].length }}
+          <li class="pdf">
+          {{sub.name | enFormat}}
+            {{each sub[role] as file j}}
+              <a class="downloadBtn {{file | extLang}}"
+                href="download_interceptor.php?fname={{file | rmSlash | encode}}"
+                target="_blank">{{file | langBtn}}</a>
+            {{/each}}
+          </li>
+        {{/if}}
+      {{/each}}
+    {{/if}}
+    {{/each}}
+  </ul>

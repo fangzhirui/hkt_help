@@ -1,0 +1,50 @@
+[
+    {
+        "folder": "new_feature_intro",
+        "name": "電子學習系統 - 新功能介紹"
+    },
+    {
+        "folder": "co-launch",
+        "name": "課堂學習系統 (Android)"
+    },
+    {
+        "folder": "mobile_learning_user_guild",
+        "name": "HKT 遊蹤活動"
+    },
+    {
+        "folder": "new_year_upgrade",
+        "name": "雲端學習系統 (CLS) - 新學年升級程序"
+    },
+    {
+        "folder": "parent_app_training_notes",
+        "name": "家長應用程式 (Parent App)"
+    },
+    {
+        "folder": "preparation_tips",
+        "name": "課堂學習系統 - 老師及學生課堂前的準備"
+    },
+    {
+        "folder": "school_channel",
+        "name": "校園視頻 (School Channel)"
+    },
+    {
+        "folder": "training_note_als",
+        "name": "課堂學習系統 (Android)"
+    },
+    {
+        "folder": "training_note_als_ios",
+        "name": "課堂學習系統 (iOS)"
+    },
+    {
+        "folder": "training_note_mdm",
+        "name": "HKTE MDM Teacher App"
+    },
+    {
+        "folder": "traning_note_cls",
+        "name": "雲端學習系統 (Cloud Learning System, CLS)"
+    },
+    {
+        "folder": "update_app",
+        "name": "雲端學習系統 (CLS) - 新學年升級程序"
+    }
+]
