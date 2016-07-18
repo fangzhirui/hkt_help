@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "deep-extend": "^0.4.1",
+    "superagent": "^2.1.0",
     "underscore": "^1.8.3"
   }
 }

@@ -1,6 +1,6 @@
 <?
 
-	require_once('/var/www/inc.php');
+	require_once(dirname(__FILE__) . '/../../../inc.php');
 
 	function isIn($value, $list){
 		$num = count($list);

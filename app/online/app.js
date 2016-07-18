@@ -5,8 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var pages = require('./routes/pages');
+var docRoutes = require('./routes/docs');
 
 var app = express();
 
@@ -22,11 +22,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static('public'));
 
-app.use('/', routes);
-app.use('/users', users);
+app.use('/', pages);
+app.use('/hkt/portal/hkt_help', docRoutes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+  console.log(req.originalUrl);
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
